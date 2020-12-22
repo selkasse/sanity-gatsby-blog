@@ -1,3 +1,5 @@
+import MarkdownInput from 'sanity-plugin-markdown'
+
 import { format } from 'date-fns'
 
 export default {
@@ -61,6 +63,11 @@ export default {
           }
         }
       ]
+    },
+    {
+      name: 'body',
+      type: 'bodyPortableText',
+      title: 'Body'
     },
     {
       name: 'body',
