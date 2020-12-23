@@ -62,20 +62,20 @@ export default {
         }
       ]
     },
-    // {
-    //   name: 'body',
-    //   type: 'bodyPortableText',
-    //   title: 'Body'
-    // }
-
     {
       name: 'body',
-      title: 'Body',
-      type: 'markdown',
-      options: {
-        minRows: 20
-      }
+      type: 'bodyPortableText',
+      title: 'Body'
     }
+
+    // {
+    //   name: 'body',
+    //   title: 'Body',
+    //   type: 'markdown',
+    //   options: {
+    //     minRows: 20
+    //   }
+    // }
   ],
   orderings: [
     {

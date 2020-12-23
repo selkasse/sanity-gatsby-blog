@@ -9,6 +9,7 @@ import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
 import siteSettings from './documents/siteSettings'
+import markdown from 'sanity-plugin-markdown'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -16,7 +17,7 @@ import bioPortableText from './objects/bioPortableText'
 import excerptPortableText from './objects/excerptPortableText'
 import mainImage from './objects/mainImage'
 import authorReference from './objects/authorReference'
-import markdown from 'sanity-plugin-markdown'
+console.log(markdown)
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
