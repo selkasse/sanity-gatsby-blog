@@ -64,18 +64,9 @@ export default {
     },
     {
       name: 'body',
-      type: 'bodyPortableText',
+      type: 'markdown',
       title: 'Body'
     }
-
-    // {
-    //   name: 'body',
-    //   title: 'Body',
-    //   type: 'markdown',
-    //   options: {
-    //     minRows: 20
-    //   }
-    // }
   ],
   orderings: [
     {
